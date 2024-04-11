@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.manrope_ {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    display: flex;
+    background-color:hsl(210, 46%, 95%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+}
+span{
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
